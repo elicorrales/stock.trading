@@ -2,6 +2,8 @@ package com.eli.trading.stock.ticker;
 
 import static org.junit.Assert.assertTrue;
 
+import java.io.IOException;
+
 import org.junit.Test;
 
 /**
@@ -9,12 +11,12 @@ import org.junit.Test;
  */
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
+
     @Test
-    public void shouldAnswerWithTrue()
+    public void shouldAnswerWithTrue() throws IOException
     {
-        assertTrue( true );
+    	Fidelity fidelity = new Fidelity();
+    	fidelity.doIt(null);
     }
+
 }
