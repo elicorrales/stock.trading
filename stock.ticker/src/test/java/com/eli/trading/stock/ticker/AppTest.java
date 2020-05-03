@@ -15,8 +15,8 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue() throws IOException
     {
-    	Fidelity fidelity = new Fidelity();
-    	fidelity.doIt(null);
+        Fidelity fidelity = new Fidelity();
+        fidelity.doIt(null);
     }
 
 }
